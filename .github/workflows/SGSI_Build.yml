@@ -3,7 +3,7 @@ name: SGSI_Build
 on:
   workflow_dispatch:
     inputs:
-      ROM_URL:https://h7p1uhhu9o0qsp4gvji8k6hjuku2si84fp35cf4r5slsu20eivsvvcn7.qc.dolfincdnx.net:10443/xdispatch3c032354651c8409/bigota.d.miui.com/V14.0.23.4.17.DEV/miui_DAGU_V14.0.23.4.17.DEV_00722addf5_13.0.zip?bsreqid=
+      ROM_URL:https://xiaomi.baishancdnx.cn/xdispatch3c032354651c840a/bigota.d.miui.com/V14.0.7.0.TLYCNXM/miui_YUNLUO_V14.0.7.0.TLYCNXM_f4252959ff_13.0.zip?bsreqid=74e4dfd34a32240a13d0cbfa70c66270&DPhost=xiaomi.baishancdnx.cn
         description: 'ROM_URL'
         required: true
         default: 'https://hugeota.d.miui.com/21.5.31/miui_TUCANA_21.5.31_cb42ec9bed_11.0.zip'
@@ -19,7 +19,7 @@ on:
         description: 'SGSI_TYPE(AB, A, or BOTH)'
         required: true
         default: 'AB'
-      REPACK_NAME:SGSI.zip
+      REPACK_NAME:miui14padSGSI.zip
         description: 'REPACK_NAME'
         required: true
         default: 'SGSI.zip'
